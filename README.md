@@ -67,6 +67,6 @@ who participated in this project.
 
 This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for more details.
 
-## Acknowledgments
+## Acknowledgements
 
 * To ezyVet for creating a fantastic API.
