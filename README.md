@@ -65,7 +65,7 @@ who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License.md.
+This project is licensed under the MIT License.md. See [`LICENSE`](LICENSE.md) for more details.
 
 ## Acknowledgments
 
