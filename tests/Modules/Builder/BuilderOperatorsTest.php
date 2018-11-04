@@ -42,7 +42,7 @@ class BuilderOperatorsTest extends TestCase
      *
      * @runInSeparateProcess
      * @covers \Modules\Builder\BuilderOperators::validate
-     * @expectedException InvalidOperator
+     * @expectedException Modules\Builder\Exceptions\InvalidOperator
      *
      * @return void
      */

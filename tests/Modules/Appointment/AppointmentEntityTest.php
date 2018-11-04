@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class AppointmentEntityTest.
  *
- * @package Modules\Appointment
+ * @package Tests\Modules\Appointment
  *
  * @author Anirvan Bhaduri
  * @since 3rd Nov 2018
