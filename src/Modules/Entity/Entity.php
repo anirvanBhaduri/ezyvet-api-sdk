@@ -38,10 +38,21 @@ abstract class Entity implements EntityContract
     }
 
     /**
-     * {@inheritdoc}
+     * Limit the number of records retrieved when doing a fetch.
+     *
+     * @param int $limit
+     *
+     * @return EntityContract
      */
-    abstract function limit(int $limit): EntityContract;
+    public function limit(int $limit): EntityContract
+    {
+        $this->builder->filter(new LimitQuery($limit));
 
-    // TODO: implement abstract get function
+        return $this;
+    }
+
+    // TODO: implement abstract retrieve function
     // TODO: add method to EntityContract
+    // TODO: create appointment entity fields - i.e. id, modified_at etc.
+    // TODO: create fields contract - this can then be used on FieldQuery
 }

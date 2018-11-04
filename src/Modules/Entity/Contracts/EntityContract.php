@@ -13,7 +13,7 @@ namespace Modules\Entity\Contracts;
 interface EntityContract
 {
     /**
-     * Limit the number of records retrieved when doing a get.
+     * Limit the number of records retrieved when doing a fetch.
      *
      * @param int $limit
      *

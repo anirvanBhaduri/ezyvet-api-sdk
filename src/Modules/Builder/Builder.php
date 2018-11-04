@@ -31,7 +31,7 @@ class Builder implements BuilderContract
      */
     public function filter(QueryContract $query): BuilderContract
     {
-        $this->build[get_class($query)] = $query;
+        $this->build[$query->name()] = $query;
 
         return $this;
     }

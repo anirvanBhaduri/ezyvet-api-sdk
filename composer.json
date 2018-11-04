@@ -22,10 +22,26 @@
             "Modules\\Appointment\\Entity\\": "src/Modules/Appointment/Entity/",
             "Modules\\Builder\\": "src/Modules/Builder/",
             "Modules\\Builder\\Contracts\\": "src/Modules/Builder/Contracts/",
+            "Modules\\Builder\\Exceptions\\": "src/Modules/Builder/Exceptions/",
             "Modules\\Entity\\": "src/Modules/Entity/",
             "Modules\\Entity\\Contracts\\": "src/Modules/Entity/Contracts/",
             "Modules\\Query\\Contracts\\": "src/Modules/Query/Contracts/",
-            "Modules\\Query\\Limit\\": "src/Modules/Query/Limit/"
+            "Modules\\Query\\Limit\\": "src/Modules/Query/Limit/",
+            "Modules\\Query\\Field\\": "src/Modules/Query/Field/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Modules\\Appointment\\": "tests/Modules/Appointment/",
+            "Tests\\Modules\\Builder\\": "tests/Modules/Builder/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit tests/"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Run tests."
     }
 }

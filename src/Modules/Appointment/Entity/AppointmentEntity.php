@@ -2,9 +2,7 @@
 
 namespace Modules\Appointment\Entity;
 
-use Modules\Entity\Contracts\EntityContract;
 use Modules\Entity\Entity;
-use Modules\Query\Limit\LimitQuery;
 
 /**
  * Class AppointmentEntity.
@@ -16,17 +14,5 @@ use Modules\Query\Limit\LimitQuery;
  */
 class AppointmentEntity extends Entity
 {
-    /**
-     * Limit the number of items retrieved.
-     *
-     * @param int $limit
-     *
-     * @return EntityContract
-     */
-    public function limit(int $limit): EntityContract
-    {
-        $this->builder->filter(new LimitQuery($limit));
 
-        return $this;
-    }
 }

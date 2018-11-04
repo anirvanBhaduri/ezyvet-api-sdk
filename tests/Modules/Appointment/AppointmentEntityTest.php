@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Appointment;
+namespace Tests\Modules\Appointment;
 
 use Modules\Appointment\Entity\AppointmentEntity;
 use Modules\Entity\Contracts\EntityContract;

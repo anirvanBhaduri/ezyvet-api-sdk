@@ -17,7 +17,7 @@ class LimitQuery implements QueryContract
     /**
      * The name of the limit query.
      *
-     * @const string
+     * @var string
      */
     const NAME = 'limit';
 
